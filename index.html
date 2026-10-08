@@ -2,1804 +2,737 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-          content="BWESOSA - Bwera Secondary School Old Boys and Old Girls Students Association. Connecting generations, building friendships and giving back to our school.">
+        content="BWESOSA - Bwera Secondary School Old Boys and Old Girls Students Association. Connecting generations, building friendships and giving back to our school.">
 
     <meta name="keywords"
-          content="BWESOSA, Bwera Secondary School, alumni, old boys, old girls, Uganda alumni">
+        content="BWESOSA, Bwera Secondary School, alumni, old boys, old girls, Uganda alumni">
 
     <meta name="author" content="BWESOSA">
-
     <title>BWESOSA | Bwera Secondary School Alumni Association</title>
 
     <link rel="stylesheet" href="style.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap"
-          rel="stylesheet">
-
+    <!-- Font Awesome is only used for the small icons -->
     <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
 
-<!-- =====================================================
-     TOP BAR
-===================================================== -->
-
+<!-- TOP BAR -->
 <div class="top-bar">
-
-    <div class="container top-content">
-
-        <div class="top-left">
-            <span>
-                <i class="fa-solid fa-envelope"></i>
-                info@bwesosa.org
-            </span>
-
-            <span>
-                <i class="fa-solid fa-phone"></i>
-                +256 700 000 000
-            </span>
+    <div class="container top-bar-content">
+        <div>
+            <span><i class="fa-solid fa-envelope"></i> info@bwesosa.org</span>
+            <span><i class="fa-solid fa-phone"></i> +256 785541468</span>
         </div>
 
-        <div class="top-right">
-
-            <a href="#">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-
-            <a href="#">
-                <i class="fab fa-x-twitter"></i>
-            </a>
-
-            <a href="#">
-                <i class="fab fa-instagram"></i>
-            </a>
-
-            <a href="#">
-                <i class="fab fa-youtube"></i>
-            </a>
-
-            <a href="#">
-                <i class="fab fa-whatsapp"></i>
-            </a>
-
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-x-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
         </div>
-
     </div>
-
 </div>
 
-
-<!-- =====================================================
-     NAVIGATION
-===================================================== -->
-
+<!-- NAVIGATION -->
 <header class="header">
-
     <div class="container nav-container">
 
         <a href="#home" class="logo">
-
-            <div class="logo-circle">
-                B
-            </div>
-
-            <div>
+            <span class="logo-circle">B</span>
+            <span>
                 <strong>BWESOSA</strong>
                 <small>Bwera Secondary School Alumni</small>
-            </div>
-
+            </span>
         </a>
 
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
 
-        <nav class="navbar">
-
-            <a href="#home" class="active">Home</a>
+        <nav class="navbar" id="navbar">
+            <a href="#home">Home</a>
             <a href="#about">About</a>
-            <a href="#members">Members</a>
             <a href="#events">Events</a>
             <a href="#news">News</a>
             <a href="#projects">Projects</a>
             <a href="#gallery">Gallery</a>
             <a href="#contact">Contact</a>
-
         </nav>
 
-
         <div class="nav-buttons">
-
-            <a href="#login" class="login-btn">
-                Login
-            </a>
-
-            <a href="#join" class="join-btn">
-                Join BWESOSA
-            </a>
-
+            <a href="#login" class="login-btn">Login</a>
+            <a href="#join" class="join-btn">Join BWESOSA</a>
         </div>
 
     </div>
-
 </header>
 
-
-<!-- =====================================================
-     HERO
-===================================================== -->
-
+<!-- HERO -->
 <section class="hero" id="home">
-
-    <div class="hero-overlay"></div>
-
     <div class="container hero-content">
 
-        <span class="hero-label">
-            Bwera Secondary School Old Boys & Old Girls
-        </span>
+        <div class="hero-text">
+            <p class="section-label">Bwera Secondary School Old Boys & Old Girls</p>
 
-        <h1>
-            One School.
-            <span>One Family.</span>
-            One Legacy.
-        </h1>
+            <h1>
+                One School.<br>
+                <span>One Family.</span><br>
+                One Legacy.
+            </h1>
 
-        <p>
-            Welcome to BWESOSA, the home of Bwera Secondary School
-            alumni. Connecting generations, celebrating achievements
-            and giving back to the school that brought us together.
-        </p>
+            <p>
+                Welcome to BWESOSA, the home of Bwera Secondary School alumni.
+                Connecting generations, celebrating achievements and giving
+                back to the school that brought us together.
+            </p>
 
-        <div class="hero-buttons">
+            <div class="buttons">
+                <a href="#join" class="btn primary">Join BWESOSA</a>
+                <a href="#about" class="btn secondary">Discover Our Story</a>
+            </div>
 
-            <a href="#join" class="btn btn-primary">
-                Join BWESOSA
-                <i class="fa-solid fa-arrow-right"></i>
-            </a>
-
-            <a href="#about" class="btn btn-outline">
-                Discover Our Story
-            </a>
-
+            <div class="hero-stats">
+                <div>
+                    <strong>2,500+</strong>
+                    <span>Alumni</span>
+                </div>
+                <div>
+                    <strong>40+</strong>
+                    <span>Years Connected</span>
+                </div>
+                <div>
+                    <strong>15+</strong>
+                    <span>Projects</span>
+                </div>
+            </div>
         </div>
 
-        <div class="hero-statistics">
-
-            <div>
-                <strong>2,500+</strong>
-                <span>Alumni</span>
-            </div>
-
-            <div>
-                <strong>40+</strong>
-                <span>Years Connected</span>
-            </div>
-
-            <div>
-                <strong>15+</strong>
-                <span>Projects</span>
-            </div>
-
+        <div class="hero-image">
+            <i class="fa-solid fa-school"></i>
+            <h2>BWERA SECONDARY SCHOOL</h2>
+            <p>Alumni Association</p>
         </div>
 
     </div>
-
 </section>
 
+<!-- WELCOME -->
+<section class="section">
+    <div class="container two-columns">
 
-<!-- =====================================================
-     WELCOME
-===================================================== -->
-
-<section class="welcome section">
-
-    <div class="container welcome-grid">
-
-        <div class="welcome-image">
-
-            <div class="image-placeholder">
-                <i class="fa-solid fa-school"></i>
-                <span>BWERA SECONDARY SCHOOL</span>
-            </div>
-
+        <div class="image-box">
+            <i class="fa-solid fa-school"></i>
+            <h3>BWERA SECONDARY SCHOOL</h3>
         </div>
 
+        <div>
+            <p class="section-label">Welcome to BWESOSA</p>
 
-        <div class="welcome-content">
-
-            <span class="section-label">
-                Welcome to BWESOSA
-            </span>
-
-            <h2>
-                Where Memories Become
-                <span>Legacy</span>
-            </h2>
+            <h2>Where Memories Become <span>Legacy</span></h2>
 
             <p>
-                BWESOSA brings together former students of Bwera
-                Secondary School from different generations, professions
-                and parts of the world.
+                BWESOSA brings together former students of Bwera Secondary School
+                from different generations, professions and parts of the world.
             </p>
 
             <p>
-                Our association exists to strengthen relationships among
-                former students, support one another, mentor young people
-                and contribute to the continued development of our school
-                and community.
+                Our association exists to strengthen relationships among former
+                students, support one another, mentor young people and contribute
+                to the continued development of our school and community.
             </p>
 
-            <a href="#about" class="text-link">
-                Learn more about BWESOSA
-                <i class="fa-solid fa-arrow-right"></i>
-            </a>
-
+            <a href="#about" class="text-link">Learn more about BWESOSA →</a>
         </div>
 
     </div>
-
 </section>
 
-
-<!-- =====================================================
-     STATISTICS
-===================================================== -->
-
-<section class="stats-section">
-
+<!-- STATISTICS -->
+<section class="stats">
     <div class="container stats-grid">
-
-        <div class="stat-card">
-            <i class="fa-solid fa-users"></i>
-            <strong>2,500+</strong>
-            <span>Registered Alumni</span>
-        </div>
-
-        <div class="stat-card">
-            <i class="fa-solid fa-globe-africa"></i>
-            <strong>12+</strong>
-            <span>Countries</span>
-        </div>
-
-        <div class="stat-card">
-            <i class="fa-solid fa-people-group"></i>
-            <strong>20+</strong>
-            <span>Alumni Chapters</span>
-        </div>
-
-        <div class="stat-card">
-            <i class="fa-solid fa-hand-holding-heart"></i>
-            <strong>15+</strong>
-            <span>Community Projects</span>
-        </div>
-
+        <div><strong>2,500+</strong><span>Registered Alumni</span></div>
+        <div><strong>12+</strong><span>Countries</span></div>
+        <div><strong>20+</strong><span>Alumni Chapters</span></div>
+        <div><strong>15+</strong><span>Community Projects</span></div>
     </div>
-
 </section>
 
-
-<!-- =====================================================
-     ABOUT
-===================================================== -->
-
+<!-- ABOUT -->
 <section class="section" id="about">
-
     <div class="container">
 
         <div class="section-heading">
-
-            <span class="section-label">Who We Are</span>
-
-            <h2>
-                About <span>BWESOSA</span>
-            </h2>
-
+            <p class="section-label">Who We Are</p>
+            <h2>About <span>BWESOSA</span></h2>
             <p>
                 Building a stronger alumni community through friendship,
                 service, mentorship and shared responsibility.
             </p>
-
         </div>
 
+        <div class="cards three-columns">
 
-        <div class="about-grid">
-
-            <div class="about-card">
-
-                <div class="icon-box">
-                    <i class="fa-solid fa-bullseye"></i>
-                </div>
-
+            <article class="card dark-card">
+                <div class="icon"><i class="fa-solid fa-bullseye"></i></div>
                 <h3>Our Mission</h3>
-
                 <p>
-                    To unite Bwera Secondary School alumni and mobilize
-                    their skills, resources and networks for the benefit
-                    of members, students, the school and society.
+                    To unite Bwera Secondary School alumni and mobilize their
+                    skills, resources and networks for the benefit of members,
+                    students, the school and society.
                 </p>
+            </article>
 
-            </div>
-
-
-            <div class="about-card">
-
-                <div class="icon-box">
-                    <i class="fa-solid fa-eye"></i>
-                </div>
-
+            <article class="card">
+                <div class="icon"><i class="fa-solid fa-eye"></i></div>
                 <h3>Our Vision</h3>
-
                 <p>
-                    A united, successful and impactful Bwera Secondary
-                    School alumni community contributing to national
-                    development.
+                    A united, successful and impactful Bwera Secondary School
+                    alumni community contributing to national development.
                 </p>
+            </article>
 
-            </div>
-
-
-            <div class="about-card">
-
-                <div class="icon-box">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-
+            <article class="card">
+                <div class="icon"><i class="fa-solid fa-heart"></i></div>
                 <h3>Our Values</h3>
-
                 <p>
                     Unity, integrity, service, excellence, friendship,
                     responsibility and commitment to future generations.
                 </p>
-
-            </div>
+            </article>
 
         </div>
-
     </div>
-
 </section>
 
+<!-- PRESIDENT MESSAGE -->
+<section class="section cream">
+    <div class="container two-columns">
 
-<!-- =====================================================
-     PRESIDENT MESSAGE
-===================================================== -->
-
-<section class="president section">
-
-    <div class="container president-grid">
-
-        <div class="president-photo">
-
-            <div class="image-placeholder portrait">
-                <i class="fa-solid fa-user"></i>
-            </div>
-
+        <div class="portrait">
+            <i class="fa-solid fa-user-tie"></i>
+            <p>BWESOSA President</p>
         </div>
 
-
-        <div class="president-content">
-
-            <span class="section-label">
-                Leadership Message
-            </span>
-
-            <h2>
-                Message from the
-                <span>President</span>
-            </h2>
+        <div>
+            <p class="section-label">Leadership Message</p>
+            <h2>Message from the <span>President</span></h2>
 
             <blockquote>
-                "Our school gave us knowledge, friendships and a
-                foundation upon which many of us have built our lives.
-                BWESOSA gives us an opportunity to return that gift."
+                "Our school gave us knowledge, friendships and a foundation
+                upon which many of us have built our lives. BWESOSA gives us
+                an opportunity to return that gift."
             </blockquote>
 
             <p>
-                We invite every old boy and old girl of Bwera Secondary
-                School to reconnect, participate and contribute to the
-                future of our school community.
+                We invite every old boy and old girl of Bwera Secondary School
+                to reconnect, participate and contribute to the future of our
+                school community.
             </p>
 
-            <strong>
-                — President, BWESOSA
-            </strong>
-
+            <strong>— President, BWESOSA</strong>
         </div>
 
     </div>
-
 </section>
 
-
-<!-- =====================================================
-     MEMBER DIRECTORY
-===================================================== -->
-
-<section class="section light-section" id="members">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <span class="section-label">
-                Alumni Network
-            </span>
-
-            <h2>
-                Find Your
-                <span>Fellow Alumni</span>
-            </h2>
-
-            <p>
-                Reconnect with classmates, schoolmates and friends
-                from different generations.
-            </p>
-
-        </div>
-
-
-        <div class="member-search">
-
-            <input
-                type="text"
-                placeholder="Search by name..."
-            >
-
-            <select>
-                <option>All Years</option>
-                <option>1980 - 1989</option>
-                <option>1990 - 1999</option>
-                <option>2000 - 2009</option>
-                <option>2010 - 2019</option>
-                <option>2020 - 2029</option>
-            </select>
-
-            <select>
-                <option>All Professions</option>
-                <option>Engineer</option>
-                <option>Doctor</option>
-                <option>Teacher</option>
-                <option>Business</option>
-                <option>Technology</option>
-                <option>Law</option>
-            </select>
-
-            <button>
-                <i class="fa-solid fa-magnifying-glass"></i>
-                Search
-            </button>
-
-        </div>
-
-
-        <div class="members-grid">
-
-            <article class="member-card">
-
-                <div class="member-image">
-                    <i class="fa-solid fa-user"></i>
-                </div>
-
-                <h3>John Doe</h3>
-
-                <span>Class of 2005</span>
-
-                <p>Software Engineer</p>
-
-                <a href="#">
-                    View Profile
-                </a>
-
-            </article>
-
-
-            <article class="member-card">
-
-                <div class="member-image">
-                    <i class="fa-solid fa-user"></i>
-                </div>
-
-                <h3>Jane Doe</h3>
-
-                <span>Class of 2008</span>
-
-                <p>Medical Doctor</p>
-
-                <a href="#">
-                    View Profile
-                </a>
-
-            </article>
-
-
-            <article class="member-card">
-
-                <div class="member-image">
-                    <i class="fa-solid fa-user"></i>
-                </div>
-
-                <h3>Michael Smith</h3>
-
-                <span>Class of 1999</span>
-
-                <p>Entrepreneur</p>
-
-                <a href="#">
-                    View Profile
-                </a>
-
-            </article>
-
-        </div>
-
-        <div class="center-button">
-
-            <a href="#" class="btn btn-primary">
-                View Alumni Directory
-            </a>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =====================================================
-     EVENTS
-===================================================== -->
-
+<!-- EVENTS -->
 <section class="section" id="events">
-
     <div class="container">
 
         <div class="section-heading">
-
-            <span class="section-label">
-                Stay Connected
-            </span>
-
-            <h2>
-                Upcoming
-                <span>Events</span>
-            </h2>
-
+            <p class="section-label">Stay Connected</p>
+            <h2>Upcoming <span>Events</span></h2>
         </div>
 
-
-        <div class="events-grid">
+        <div class="cards three-columns">
 
             <article class="event-card">
-
-                <div class="event-date">
-
-                    <strong>20</strong>
-                    <span>DEC</span>
-
-                </div>
-
-                <div class="event-content">
-
-                    <span class="event-category">
-                        REUNION
-                    </span>
-
-                    <h3>
-                        BWESOSA Annual General Meeting
-                    </h3>
-
-                    <p>
-                        Meet fellow alumni and discuss the future
-                        of our association.
-                    </p>
-
-                    <div class="event-info">
-
-                        <span>
-                            <i class="fa-solid fa-location-dot"></i>
-                            Bwera Secondary School
-                        </span>
-
-                        <span>
-                            <i class="fa-solid fa-clock"></i>
-                            10:00 AM
-                        </span>
-
-                    </div>
-
-                    <a href="#">
-                        Event Details →
-                    </a>
-
-                </div>
-
+                <div class="date"><strong>20</strong><span>DEC</span></div>
+                <p class="category">REUNION</p>
+                <h3>BWESOSA Annual General Meeting</h3>
+                <p>Meet fellow alumni and discuss the future of our association.</p>
+                <p><i class="fa-solid fa-location-dot"></i> Bwera Secondary School</p>
+                <p><i class="fa-solid fa-clock"></i> 10:00 AM</p>
+                <button class="small-button event-button">Event Details</button>
             </article>
 
-
             <article class="event-card">
-
-                <div class="event-date">
-
-                    <strong>05</strong>
-                    <span>JAN</span>
-
-                </div>
-
-                <div class="event-content">
-
-                    <span class="event-category">
-                        CHARITY
-                    </span>
-
-                    <h3>
-                        BWESOSA Community Outreach
-                    </h3>
-
-                    <p>
-                        An alumni-led community service initiative.
-                    </p>
-
-                    <div class="event-info">
-
-                        <span>
-                            <i class="fa-solid fa-location-dot"></i>
-                            Kasese District
-                        </span>
-
-                        <span>
-                            <i class="fa-solid fa-clock"></i>
-                            9:00 AM
-                        </span>
-
-                    </div>
-
-                    <a href="#">
-                        Event Details →
-                    </a>
-
-                </div>
-
+                <div class="date"><strong>05</strong><span>JAN</span></div>
+                <p class="category">CHARITY</p>
+                <h3>BWESOSA Community Outreach</h3>
+                <p>An alumni-led community service initiative.</p>
+                <p><i class="fa-solid fa-location-dot"></i> Kasese District</p>
+                <p><i class="fa-solid fa-clock"></i> 9:00 AM</p>
+                <button class="small-button event-button">Event Details</button>
             </article>
 
-
             <article class="event-card">
-
-                <div class="event-date">
-
-                    <strong>15</strong>
-                    <span>FEB</span>
-
-                </div>
-
-                <div class="event-content">
-
-                    <span class="event-category">
-                        SPORTS
-                    </span>
-
-                    <h3>
-                        BWESOSA Sports Day
-                    </h3>
-
-                    <p>
-                        Football, athletics, volleyball and other
-                        activities bringing alumni together.
-                    </p>
-
-                    <div class="event-info">
-
-                        <span>
-                            <i class="fa-solid fa-location-dot"></i>
-                            School Grounds
-                        </span>
-
-                        <span>
-                            <i class="fa-solid fa-clock"></i>
-                            8:00 AM
-                        </span>
-
-                    </div>
-
-                    <a href="#">
-                        Event Details →
-                    </a>
-
-                </div>
-
+                <div class="date"><strong>15</strong><span>FEB</span></div>
+                <p class="category">SPORTS</p>
+                <h3>BWESOSA Sports Day</h3>
+                <p>Football, athletics, volleyball and other activities bringing alumni together.</p>
+                <p><i class="fa-solid fa-location-dot"></i> School Grounds</p>
+                <p><i class="fa-solid fa-clock"></i> 8:00 AM</p>
+                <button class="small-button event-button">Event Details</button>
             </article>
 
         </div>
-
     </div>
-
 </section>
 
-
-<!-- =====================================================
-     NEWS
-===================================================== -->
-
-<section class="section light-section" id="news">
-
+<!-- NEWS -->
+<section class="section light" id="news">
     <div class="container">
 
         <div class="section-heading">
-
-            <span class="section-label">
-                Latest Updates
-            </span>
-
-            <h2>
-                BWESOSA
-                <span>News</span>
-            </h2>
-
+            <p class="section-label">Latest Updates</p>
+            <h2>BWESOSA <span>News</span></h2>
         </div>
 
-
-        <div class="news-grid">
+        <div class="cards three-columns">
 
             <article class="news-card">
-
-                <div class="news-image">
-                    <i class="fa-solid fa-newspaper"></i>
-                </div>
-
-                <div class="news-content">
-
-                    <span>August 18, 2026</span>
-
-                    <h3>
-                        BWESOSA launches a new alumni platform
-                    </h3>
-
+                <div class="news-image"><i class="fa-solid fa-newspaper"></i></div>
+                <div class="card-content">
+                    <small>August 18, 2026</small>
+                    <h3>BWESOSA launches a new alumni platform</h3>
                     <p>
-                        Former students can now reconnect, share
-                        opportunities and participate in alumni activities.
+                        Former students can now reconnect, share opportunities
+                        and participate in alumni activities.
                     </p>
-
-                    <a href="#">
-                        Read More →
-                    </a>
-
+                    <button class="text-button news-button">Read More →</button>
                 </div>
-
             </article>
 
-
             <article class="news-card">
-
-                <div class="news-image">
-                    <i class="fa-solid fa-graduation-cap"></i>
-                </div>
-
-                <div class="news-content">
-
-                    <span>August 10, 2026</span>
-
-                    <h3>
-                        Alumni mentorship programme announced
-                    </h3>
-
+                <div class="news-image"><i class="fa-solid fa-graduation-cap"></i></div>
+                <div class="card-content">
+                    <small>August 10, 2026</small>
+                    <h3>Alumni mentorship programme announced</h3>
                     <p>
-                        Professionals are invited to mentor current
-                        students at Bwera Secondary School.
+                        Professionals are invited to mentor current students
+                        at Bwera Secondary School.
                     </p>
-
-                    <a href="#">
-                        Read More →
-                    </a>
-
+                    <button class="text-button news-button">Read More →</button>
                 </div>
-
             </article>
 
-
             <article class="news-card">
-
-                <div class="news-image">
-                    <i class="fa-solid fa-hand-holding-heart"></i>
-                </div>
-
-                <div class="news-content">
-
-                    <span>July 30, 2026</span>
-
-                    <h3>
-                        BWESOSA launches school support campaign
-                    </h3>
-
+                <div class="news-image"><i class="fa-solid fa-hand-holding-heart"></i></div>
+                <div class="card-content">
+                    <small>July 30, 2026</small>
+                    <h3>BWESOSA launches school support campaign</h3>
                     <p>
                         Alumni are coming together to support infrastructure
                         development at the school.
                     </p>
-
-                    <a href="#">
-                        Read More →
-                    </a>
-
+                    <button class="text-button news-button">Read More →</button>
                 </div>
-
             </article>
 
         </div>
-
     </div>
-
 </section>
 
-
-<!-- =====================================================
-     PROJECTS
-===================================================== -->
-
+<!-- PROJECTS -->
 <section class="section" id="projects">
-
     <div class="container">
 
         <div class="section-heading">
-
-            <span class="section-label">
-                Giving Back
-            </span>
-
-            <h2>
-                Our
-                <span>Projects</span>
-            </h2>
-
-            <p>
-                Together we can make a lasting difference.
-            </p>
-
+            <p class="section-label">Giving Back</p>
+            <h2>Our <span>Projects</span></h2>
+            <p>Together we can make a lasting difference.</p>
         </div>
 
+        <div class="cards three-columns">
 
-        <div class="projects-grid">
-
-            <article class="project-card">
-
-                <div class="project-icon">
-                    <i class="fa-solid fa-school"></i>
-                </div>
-
-                <h3>
-                    School Infrastructure
-                </h3>
-
-                <p>
-                    Supporting classroom, laboratory and infrastructure
-                    improvements.
-                </p>
-
-                <div class="progress">
-
-                    <div class="progress-bar"></div>
-
-                </div>
-
-                <span>
-                    75% completed
-                </span>
-
-                <a href="#">
-                    Support Project
-                </a>
-
+            <article class="card project-card">
+                <div class="icon"><i class="fa-solid fa-school"></i></div>
+                <h3>School Infrastructure</h3>
+                <p>Supporting classroom, laboratory and infrastructure improvements.</p>
+                <div class="progress"><span style="width: 75%"></span></div>
+                <small>75% completed</small>
+                <button class="small-button support-button">Support Project</button>
             </article>
 
-
-            <article class="project-card">
-
-                <div class="project-icon">
-                    <i class="fa-solid fa-book"></i>
-                </div>
-
-                <h3>
-                    Student Scholarship
-                </h3>
-
-                <p>
-                    Helping talented students who need financial support.
-                </p>
-
-                <div class="progress">
-
-                    <div class="progress-bar progress-60"></div>
-
-                </div>
-
-                <span>
-                    60% funded
-                </span>
-
-                <a href="#">
-                    Support Project
-                </a>
-
+            <article class="card project-card">
+                <div class="icon"><i class="fa-solid fa-book"></i></div>
+                <h3>Student Scholarship</h3>
+                <p>Helping talented students who need financial support.</p>
+                <div class="progress"><span style="width: 60%"></span></div>
+                <small>60% funded</small>
+                <button class="small-button support-button">Support Project</button>
             </article>
 
-
-            <article class="project-card">
-
-                <div class="project-icon">
-                    <i class="fa-solid fa-computer"></i>
-                </div>
-
-                <h3>
-                    Digital Learning Lab
-                </h3>
-
-                <p>
-                    Providing computers and digital learning resources.
-                </p>
-
-                <div class="progress">
-
-                    <div class="progress-bar progress-45"></div>
-
-                </div>
-
-                <span>
-                    45% completed
-                </span>
-
-                <a href="#">
-                    Support Project
-                </a>
-
+            <article class="card project-card">
+                <div class="icon"><i class="fa-solid fa-computer"></i></div>
+                <h3>Digital Learning Lab</h3>
+                <p>Providing computers and digital learning resources.</p>
+                <div class="progress"><span style="width: 45%"></span></div>
+                <small>45% completed</small>
+                <button class="small-button support-button">Support Project</button>
             </article>
 
         </div>
-
     </div>
-
 </section>
 
-
-<!-- =====================================================
-     MENTORSHIP
-===================================================== -->
-
-<section class="mentorship section">
-
-    <div class="container mentorship-grid">
-
+<!-- MENTORSHIP -->
+<section class="section cream">
+    <div class="container two-columns">
         <div>
-
-            <span class="section-label">
-                Give Back
-            </span>
-
-            <h2>
-                Become a
-                <span>Mentor</span>
-            </h2>
-
+            <p class="section-label">Give Back</p>
+            <h2>Become a <span>Mentor</span></h2>
             <p>
-                Your experience could change the life of a current
-                student. BWESOSA connects students with alumni
-                professionals for guidance and mentorship.
+                Your experience could change the life of a current student.
+                BWESOSA connects students with alumni professionals for
+                guidance and mentorship.
             </p>
 
-            <div class="mentorship-buttons">
-
-                <a href="#" class="btn btn-primary">
-                    Become a Mentor
-                </a>
-
-                <a href="#" class="btn btn-outline-dark">
-                    Find a Mentor
-                </a>
-
+            <div class="buttons">
+                <button class="btn primary mentor-button">Become a Mentor</button>
+                <button class="btn secondary mentor-button">Find a Mentor</button>
             </div>
-
         </div>
 
-
-        <div class="mentorship-features">
-
-            <div>
-                <i class="fa-solid fa-user-graduate"></i>
-                <span>Career Guidance</span>
-            </div>
-
-            <div>
-                <i class="fa-solid fa-briefcase"></i>
-                <span>Professional Advice</span>
-            </div>
-
-            <div>
-                <i class="fa-solid fa-lightbulb"></i>
-                <span>Skills Development</span>
-            </div>
-
-            <div>
-                <i class="fa-solid fa-network-wired"></i>
-                <span>Networking</span>
-            </div>
-
+        <div class="feature-list">
+            <div><i class="fa-solid fa-user-graduate"></i> Career Guidance</div>
+            <div><i class="fa-solid fa-briefcase"></i> Professional Advice</div>
+            <div><i class="fa-solid fa-lightbulb"></i> Skills Development</div>
+            <div><i class="fa-solid fa-network-wired"></i> Networking</div>
         </div>
-
     </div>
-
 </section>
 
-
-<!-- =====================================================
-     JOBS
-===================================================== -->
-
-<section class="section" id="opportunities">
-
+<!-- OPPORTUNITIES -->
+<section class="section">
     <div class="container">
-
         <div class="section-heading">
-
-            <span class="section-label">
-                Alumni Opportunities
-            </span>
-
-            <h2>
-                Jobs &
-                <span>Opportunities</span>
-            </h2>
-
+            <p class="section-label">Alumni Opportunities</p>
+            <h2>Jobs & <span>Opportunities</span></h2>
         </div>
 
-
-        <div class="opportunity-grid">
-
-            <article class="opportunity-card">
-
-                <span class="job-type">
-                    FULL TIME
-                </span>
-
-                <h3>
-                    Software Developer
-                </h3>
-
-                <p>
-                    Technology Company
-                </p>
-
-                <div>
-                    <i class="fa-solid fa-location-dot"></i>
-                    Kampala, Uganda
-                </div>
-
-                <a href="#">
-                    View Opportunity →
-                </a>
-
+        <div class="cards three-columns">
+            <article class="card">
+                <span class="tag">FULL TIME</span>
+                <h3>Software Developer</h3>
+                <p>Technology Company</p>
+                <p><i class="fa-solid fa-location-dot"></i> Kampala, Uganda</p>
+                <button class="text-button opportunity-button">View Opportunity →</button>
             </article>
 
-
-            <article class="opportunity-card">
-
-                <span class="job-type">
-                    INTERNSHIP
-                </span>
-
-                <h3>
-                    Finance Intern
-                </h3>
-
-                <p>
-                    Financial Services Company
-                </p>
-
-                <div>
-                    <i class="fa-solid fa-location-dot"></i>
-                    Kampala, Uganda
-                </div>
-
-                <a href="#">
-                    View Opportunity →
-                </a>
-
+            <article class="card">
+                <span class="tag">INTERNSHIP</span>
+                <h3>Finance Intern</h3>
+                <p>Financial Services Company</p>
+                <p><i class="fa-solid fa-location-dot"></i> Kampala, Uganda</p>
+                <button class="text-button opportunity-button">View Opportunity →</button>
             </article>
 
-
-            <article class="opportunity-card">
-
-                <span class="job-type">
-                    BUSINESS
-                </span>
-
-                <h3>
-                    Alumni Business Partnership
-                </h3>
-
-                <p>
-                    BWESOSA Business Network
-                </p>
-
-                <div>
-                    <i class="fa-solid fa-globe"></i>
-                    Online
-                </div>
-
-                <a href="#">
-                    Learn More →
-                </a>
-
+            <article class="card">
+                <span class="tag">BUSINESS</span>
+                <h3>Alumni Business Partnership</h3>
+                <p>BWESOSA Business Network</p>
+                <p><i class="fa-solid fa-globe"></i> Online</p>
+                <button class="text-button opportunity-button">Learn More →</button>
             </article>
-
         </div>
-
     </div>
-
 </section>
 
-
-<!-- =====================================================
-     BUSINESS DIRECTORY
-===================================================== -->
-
-<section class="section light-section">
-
+<!-- BUSINESS DIRECTORY -->
+<section class="section light">
     <div class="container">
-
         <div class="section-heading">
-
-            <span class="section-label">
-                Support Fellow Alumni
-            </span>
-
-            <h2>
-                Alumni
-                <span>Businesses</span>
-            </h2>
-
+            <p class="section-label">Support Fellow Alumni</p>
+            <h2>Alumni <span>Businesses</span></h2>
         </div>
 
-
-        <div class="business-grid">
-
-            <article class="business-card">
-
-                <div class="business-icon">
-                    <i class="fa-solid fa-building"></i>
-                </div>
-
-                <h3>
-                    BWESOSA Technologies
-                </h3>
-
-                <span>
-                    Information Technology
-                </span>
-
-                <p>
-                    Digital solutions and software development.
-                </p>
-
-                <a href="#">
-                    Visit Business →
-                </a>
-
+        <div class="cards three-columns">
+            <article class="card">
+                <div class="icon"><i class="fa-solid fa-building"></i></div>
+                <h3>BWESOSA Technologies</h3>
+                <small>Information Technology</small>
+                <p>Digital solutions and software development.</p>
+                <button class="text-button business-button">Visit Business →</button>
             </article>
 
-
-            <article class="business-card">
-
-                <div class="business-icon">
-                    <i class="fa-solid fa-store"></i>
-                </div>
-
-                <h3>
-                    Alumni Enterprises
-                </h3>
-
-                <span>
-                    Business & Trade
-                </span>
-
-                <p>
-                    General business and entrepreneurship services.
-                </p>
-
-                <a href="#">
-                    Visit Business →
-                </a>
-
+            <article class="card">
+                <div class="icon"><i class="fa-solid fa-store"></i></div>
+                <h3>Alumni Enterprises</h3>
+                <small>Business & Trade</small>
+                <p>General business and entrepreneurship services.</p>
+                <button class="text-button business-button">Visit Business →</button>
             </article>
 
-
-            <article class="business-card">
-
-                <div class="business-icon">
-                    <i class="fa-solid fa-house"></i>
-                </div>
-
-                <h3>
-                    Alumni Properties
-                </h3>
-
-                <span>
-                    Real Estate
-                </span>
-
-                <p>
-                    Property and real estate services.
-                </p>
-
-                <a href="#">
-                    Visit Business →
-                </a>
-
+            <article class="card">
+                <div class="icon"><i class="fa-solid fa-house"></i></div>
+                <h3>Alumni Properties</h3>
+                <small>Real Estate</small>
+                <p>Property and real estate services.</p>
+                <button class="text-button business-button">Visit Business →</button>
             </article>
-
         </div>
-
-        <div class="center-button">
-
-            <a href="#" class="btn btn-primary">
-                Explore Business Directory
-            </a>
-
-        </div>
-
     </div>
-
 </section>
 
-
-<!-- =====================================================
-     GALLERY
-===================================================== -->
-
+<!-- GALLERY -->
 <section class="section" id="gallery">
-
     <div class="container">
 
         <div class="section-heading">
-
-            <span class="section-label">
-                Memories
-            </span>
-
-            <h2>
-                BWESOSA
-                <span>Gallery</span>
-            </h2>
-
+            <p class="section-label">Memories</p>
+            <h2>BWESOSA <span>Gallery</span></h2>
         </div>
 
-
-        <div class="gallery-grid">
-
-            <div class="gallery-item large">
-                <div>
-                    <i class="fa-solid fa-image"></i>
-                    <span>Alumni Reunion</span>
-                </div>
-            </div>
-
-            <div class="gallery-item">
-                <div>
-                    <i class="fa-solid fa-image"></i>
-                    <span>Sports Day</span>
-                </div>
-            </div>
-
-            <div class="gallery-item">
-                <div>
-                    <i class="fa-solid fa-image"></i>
-                    <span>School Visit</span>
-                </div>
-            </div>
-
-            <div class="gallery-item">
-                <div>
-                    <i class="fa-solid fa-image"></i>
-                    <span>Graduation</span>
-                </div>
-            </div>
-
-            <div class="gallery-item">
-                <div>
-                    <i class="fa-solid fa-image"></i>
-                    <span>Community Project</span>
-                </div>
-            </div>
-
+        <div class="gallery">
+            <div>Alumni Reunion</div>
+            <div>Sports Day</div>
+            <div>School Visit</div>
+            <div>Graduation</div>
+            <div>Community Project</div>
         </div>
 
-
-        <div class="center-button">
-
-            <a href="#" class="btn btn-primary">
-                View Full Gallery
-            </a>
-
+        <div class="center">
+            <a href="gallary.html" class="btn primary">View Full Gallery</a>
         </div>
 
     </div>
-
 </section>
 
-
-<!-- =====================================================
-     MEMORIAL
-===================================================== -->
-
-<section class="memorial section">
-
-    <div class="container memorial-content">
-
+<!-- MEMORIAL -->
+<section class="section memorial">
+    <div class="container center">
         <i class="fa-solid fa-candle-holder memorial-icon"></i>
-
-        <span class="section-label">
-            Forever Remembered
-        </span>
-
-        <h2>
-            In Memory of Our
-            <span>Fellow Alumni</span>
-        </h2>
-
+        <p class="section-label">Forever Remembered</p>
+        <h2>In Memory of Our <span>Fellow Alumni</span></h2>
         <p>
             We remember the old boys and old girls who touched our lives
             and whose memories remain part of the BWESOSA family.
         </p>
-
-        <a href="#" class="btn btn-outline">
-            Visit Memorial Wall
-        </a>
-
+        <button class="btn secondary memorial-button">Visit Memorial Wall</button>
     </div>
-
 </section>
 
-
-<!-- =====================================================
-     CHAPTERS
-===================================================== -->
-
+<!-- CHAPTERS -->
 <section class="section">
-
     <div class="container">
 
         <div class="section-heading">
-
-            <span class="section-label">
-                Our Network
-            </span>
-
-            <h2>
-                BWESOSA
-                <span>Chapters</span>
-            </h2>
-
+            <p class="section-label">Our Network</p>
+            <h2>BWESOSA <span>Chapters</span></h2>
         </div>
 
-
-        <div class="chapters-grid">
-
-            <div class="chapter-card">
-                <i class="fa-solid fa-location-dot"></i>
+        <div class="cards four-columns">
+            <article class="card center">
+                <i class="fa-solid fa-location-dot chapter-icon"></i>
                 <h3>Kasese Chapter</h3>
-                <span>120+ Members</span>
-                <a href="#">View Chapter</a>
-            </div>
+                <p>120+ Members</p>
+                <button class="text-button chapter-button">View Chapter</button>
+            </article>
 
-            <div class="chapter-card">
-                <i class="fa-solid fa-location-dot"></i>
+            <article class="card center">
+                <i class="fa-solid fa-location-dot chapter-icon"></i>
                 <h3>Kampala Chapter</h3>
-                <span>300+ Members</span>
-                <a href="#">View Chapter</a>
-            </div>
+                <p>300+ Members</p>
+                <button class="text-button chapter-button">View Chapter</button>
+            </article>
 
-            <div class="chapter-card">
-                <i class="fa-solid fa-location-dot"></i>
+            <article class="card center">
+                <i class="fa-solid fa-location-dot chapter-icon"></i>
                 <h3>Western Uganda</h3>
-                <span>200+ Members</span>
-                <a href="#">View Chapter</a>
-            </div>
+                <p>200+ Members</p>
+                <button class="text-button chapter-button">View Chapter</button>
+            </article>
 
-            <div class="chapter-card">
-                <i class="fa-solid fa-globe"></i>
+            <article class="card center">
+                <i class="fa-solid fa-globe chapter-icon"></i>
                 <h3>International</h3>
-                <span>150+ Members</span>
-                <a href="#">View Chapter</a>
-            </div>
-
+                <p>150+ Members</p>
+                <button class="text-button chapter-button">View Chapter</button>
+            </article>
         </div>
-
     </div>
-
 </section>
 
-
-<!-- =====================================================
-     JOIN
-===================================================== -->
-
+<!-- JOIN -->
 <section class="join-section" id="join">
-
-    <div class="container join-content">
-
-        <span class="section-label">
-            Become Part of the Family
-        </span>
-
-        <h2>
-            Are You a Bwera Secondary
-            <span>Old Boy or Old Girl?</span>
-        </h2>
-
+    <div class="container center">
+        <p class="section-label">Become Part of the Family</p>
+        <h2>Are You a Bwera Secondary <span>Old Boy or Old Girl?</span></h2>
         <p>
             Reconnect with your schoolmates and become part of the
             BWESOSA alumni network.
         </p>
-
-        <a href="#" class="btn btn-light">
-            Register as an Alumni
-            <i class="fa-solid fa-arrow-right"></i>
-        </a>
-
+        <a href="registrationform.html" class="btn primary">Register as an Alumni</a>
     </div>
-
 </section>
 
-
-<!-- =====================================================
-     LOGIN
-===================================================== -->
-
-<section class="section light-section" id="login">
-
-    <div class="container">
-
-        <div class="login-box">
-
-            <div class="login-info">
-
-                <span class="section-label">
-                    Alumni Portal
-                </span>
-
-                <h2>
-                    Welcome
-                    <span>Back</span>
-                </h2>
-
-                <p>
-                    Login to access your BWESOSA profile, messages,
-                    events, alumni directory and member resources.
-                </p>
-
-            </div>
-
-
-            <form class="login-form">
-
-                <label>Email Address</label>
-
-                <input
-                    type="email"
-                    placeholder="Enter your email"
-                >
-
-                <label>Password</label>
-
-                <input
-                    type="password"
-                    placeholder="Enter your password"
-                >
-
-                <div class="form-options">
-
-                    <label>
-                        <input type="checkbox">
-                        Remember me
-                    </label>
-
-                    <a href="#">
-                        Forgot Password?
-                    </a>
-
-                </div>
-
-                <button type="submit">
-                    Login
-                </button>
-
-                <p>
-                    Don't have an account?
-                    <a href="#">Register here</a>
-                </p>
-
-            </form>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =====================================================
-     NEWSLETTER
-===================================================== -->
-
-<section class="newsletter">
-
-    <div class="container newsletter-grid">
+<!-- LOGIN -->
+<section class="section light" id="login">
+    <div class="container login-box">
 
         <div>
-
-            <span class="section-label">
-                Stay Updated
-            </span>
-
-            <h2>
-                Subscribe to BWESOSA Updates
-            </h2>
-
+            <p class="section-label">Alumni Portal</p>
+            <h2>Welcome <span>Back</span></h2>
             <p>
-                Receive news, events and important alumni announcements.
+                Login to access your BWESOSA profile, messages, events
+                and member resources.
             </p>
-
         </div>
 
+        <form id="loginForm">
+            <label for="loginEmail">Email Address</label>
+            <input id="loginEmail" type="email" placeholder="Enter your email" required>
 
-        <form class="newsletter-form">
+            <label for="loginPassword">Password</label>
+            <input id="loginPassword" type="password" placeholder="Enter your password" required>
 
-            <input
-                type="email"
-                placeholder="Your email address"
-            >
+            <label class="checkbox">
+                <input type="checkbox">
+                Remember me
+            </label>
 
-            <button type="submit">
-                Subscribe
-            </button>
+            <button type="submit" class="btn primary">Login</button>
 
+            <p>
+                Don't have an account?
+                <a href="registrationform.html">Register here</a>
+            </p>
         </form>
 
     </div>
-
 </section>
 
+<!-- NEWSLETTER -->
+<section class="newsletter">
+    <div class="container newsletter-content">
+        <div>
+            <p class="section-label">Stay Updated</p>
+            <h2>Subscribe to BWESOSA Updates</h2>
+            <p>Receive news, events and important alumni announcements.</p>
+        </div>
 
-<!-- =====================================================
-     CONTACT
-===================================================== -->
+        <form id="newsletterForm">
+            <input id="newsletterEmail" type="email"
+                placeholder="Your email address" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+</section>
 
+<!-- CONTACT -->
 <section class="section" id="contact">
-
     <div class="container">
 
         <div class="section-heading">
-
-            <span class="section-label">
-                Get In Touch
-            </span>
-
-            <h2>
-                Contact
-                <span>BWESOSA</span>
-            </h2>
-
+            <p class="section-label">Get In Touch</p>
+            <h2>Contact <span>BWESOSA</span></h2>
         </div>
-
 
         <div class="contact-grid">
 
-            <div class="contact-details">
-
+            <div>
                 <div class="contact-item">
-
                     <i class="fa-solid fa-location-dot"></i>
-
                     <div>
                         <h3>Our Location</h3>
-                        <p>
-                            Bwera Secondary School<br>
-                            Kasese District, Uganda
-                        </p>
+                        <p>Bwera Secondary School<br>Kasese District, Uganda</p>
                     </div>
-
                 </div>
 
-
                 <div class="contact-item">
-
                     <i class="fa-solid fa-envelope"></i>
-
                     <div>
                         <h3>Email</h3>
-                        <p>
-                            info@bwesosa.org
-                        </p>
+                        <p>info@bwesosa.org</p>
                     </div>
-
                 </div>
-
 
                 <div class="contact-item">
-
                     <i class="fa-solid fa-phone"></i>
-
                     <div>
                         <h3>Phone</h3>
-                        <p>
-                            +256 700 000 000
-                        </p>
+                        <p>+256 700 000 000</p>
                     </div>
-
                 </div>
-
             </div>
 
-
-            <form class="contact-form">
-
-                <div class="form-row">
-
-                    <input
-                        type="text"
-                        placeholder="Your Name"
-                    >
-
-                    <input
-                        type="email"
-                        placeholder="Your Email"
-                    >
-
-                </div>
-
-
-                <input
-                    type="text"
-                    placeholder="Subject"
-                >
-
-
-                <textarea
-                    rows="7"
-                    placeholder="Your message..."
-                ></textarea>
-
-
-                <button type="submit">
+            <form id="contactForm" class="contact-form">
+                <input id="contactName" type="text" placeholder="Your Name" required>
+                <input id="contactEmail" type="email" placeholder="Your Email" required>
+                <input id="contactSubject" type="text" placeholder="Subject" required>
+                <textarea id="contactMessage" rows="7"
+                    placeholder="Your message..." required></textarea>
+                <button type="submit" class="btn primary">
                     Send Message
-                    <i class="fa-solid fa-paper-plane"></i>
                 </button>
-
             </form>
 
         </div>
-
     </div>
-
 </section>
 
-
-<!-- =====================================================
-     FOOTER
-===================================================== -->
-
+<!-- FOOTER -->
 <footer class="footer">
-
     <div class="container footer-grid">
 
-        <div class="footer-about">
-
-            <a href="#" class="footer-logo">
-
-                <div class="logo-circle">
-                    B
-                </div>
-
-                <div>
-                    <strong>BWESOSA</strong>
-                    <small>Bwera Secondary School Alumni</small>
-                </div>
-
-            </a>
-
+        <div>
+            <h2>BWESOSA</h2>
             <p>
                 Connecting generations. Celebrating achievements.
                 Building a lasting legacy.
             </p>
 
-
             <div class="social-links">
-
-                <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-
-                <a href="#">
-                    <i class="fab fa-x-twitter"></i>
-                </a>
-
-                <a href="#">
-                    <i class="fab fa-instagram"></i>
-                </a>
-
-                <a href="#">
-                    <i class="fab fa-youtube"></i>
-                </a>
-
-                <a href="#">
-                    <i class="fab fa-whatsapp"></i>
-                </a>
-
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
             </div>
-
         </div>
 
-
-        <div class="footer-column">
-
+        <div>
             <h3>Quick Links</h3>
-
             <a href="#about">About Us</a>
-            <a href="#members">Alumni Directory</a>
             <a href="#events">Events</a>
             <a href="#news">News</a>
             <a href="#gallery">Gallery</a>
-
+            <a href="#contact">Contact</a>
         </div>
 
-
-        <div class="footer-column">
-
+        <div>
             <h3>Get Involved</h3>
-
             <a href="#join">Join BWESOSA</a>
-            <a href="#">Become a Mentor</a>
-            <a href="#">Volunteer</a>
-            <a href="#">Donate</a>
-            <a href="#">Business Directory</a>
-
+            <a href="#contact">Become a Mentor</a>
+            <a href="#projects">Support Projects</a>
+            <a href="#contact">Volunteer</a>
         </div>
 
-
-        <div class="footer-column">
-
+        <div>
             <h3>Resources</h3>
-
-            <a href="#">Member Portal</a>
-            <a href="#">Jobs</a>
-            <a href="#">Scholarships</a>
-            <a href="#">Memorial Wall</a>
-            <a href="#">Privacy Policy</a>
-
+            <a href="#login">Member Portal</a>
+            <a href="#events">Events</a>
+            <a href="#projects">Scholarships</a>
+            <a href="#contact">Contact Us</a>
         </div>
 
     </div>
-
 
     <div class="footer-bottom">
-
-        <div class="container">
-
-            <p>
-                © 2026 BWESOSA. All Rights Reserved.
-            </p>
-
-            <p>
-                Built for the Bwera Secondary School Alumni Community.
-            </p>
-
-        </div>
-
+        <p>© <span id="year"></span> BWESOSA. All Rights Reserved.</p>
+        <p>Designed by MBUSA GODWIN</p>
     </div>
-
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
